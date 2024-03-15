@@ -10,12 +10,15 @@
         <h3 id="height" style="margin-bottom: 0%"></h3>
         <h4 id="colorHint" style="margin-bottom: 0%"></h4>
         <h1 id="clue" style="margin-bottom: 20%;">clue</h1>
-        <input type="text" id="answer-field" style="margin-bottom:20px;">
+        <div class="input-group">
+            <button onclick="moveLeft()" class="arrow-button">←</button>
+            <input type="text" id="answer-field" class="text-box" style="margin-bottom:20px;">
+            <button onclick="moveRight()" class="arrow-button">→</button>
+        </div>
         <button onclick="validate()">SUBMIT</button>
         <button onclick="getHelp()">HINT</button>
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
