@@ -10,6 +10,13 @@ const cream = "rgb(256,228,156)";
 var helpLevel = 0;
 var color = "";
 
+document.getElementById("answer-field").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("submit").click();
+    }
+});
+
 // Level 1:
 
 var startingRoom = [['LEVEL', 25, magenta, 2], ['HI', 'HI', 'white', 1],['TYPE', 'TYPE', 'white', 1],['THIS', 'THIS', 'white', 1],['WRITE', 'WRITE', 'white', 1],['SAME', 'SAME', 'white', 1]];
@@ -36,7 +43,6 @@ var theFresh = [["WHITE", "HI", mint, 1], ["BLACK", "LEVEL", mint, 1], ["RED", "
 var theUnscrambled = [["ENOUGH ALREADY", "HI", 'purple', 1], ["VALOR DEN", "LAVENDER", 'yellow', 0], ["DOOR", "KEYHOLE", lavender, 2], ["CANDY \\\\ CHIPS", "WRAPPER", lavender, 2], ["HAND", "GLOVE", lavender, 2], ["HAND", "MITTEN", lavender, 2], ["ORANGE \\\\ BANANA", "PEEL", lavender, 2], ["EARTH", "SPACE", lavender, 2], ["EARTH", "SKY", lavender, 2], ["EARTH", "ATMOSPHERE", lavender, 2], ["DAYDREAM", "NIGHTMARE", "black", 2], ["ATTHENS CRUMBLED", "THE UNSCRAMBLED", 'yellow', 1]];
 
 // Duolingo puzzles: 
-
 
 var theRedundant = [["HI", "HI", 'white', 1], ["HI", "HIGH", 'white', 0], ["COUP \\\\ PLED", "COUPLED", 'blue', 1], ["SINGLE \\\\ HALVED", "DOUBLED", 'black', 2], ["YELLOW", "LOW", 'red', 1], ["HELLO", "LOW", 'red', 2], ["HI \\\\ HER", "HIGHER", 'blue', 1], ["ORDINARY", "BINARY", 'purple', 1], ["BRAINY", "BINARY", 'yellow', 1], ["DUALITY \\\\ INDIVIDUALITY", "DUAL", 'red', 1], ["THE \\\\ REDUNDANT", "THE REDUNDANT", 'blue', 1]];
 var theNaive = [["IN", "IN", 'white', 1], ["IT", "IT", 'white', 1], ["I", "I", 'white', 1], ["ATE", "ATE", 'white', 1], ["START", "INITIATE", 'white-cream', 2], ["HE", "HE", 'white', 1], ["HEART", "HEART", 'white-cream', 1], ["ART", "ART", 'white', 1], ["TRIP", "TRIP", 'white', 1], ["LET", "LET", 'white', 1], ["TRIPLET", "TRIPLET", 'white-cream', 1], ["FIN", "FIN", 'white', 1], ["ALE", "ALE", 'white', 1], ["END", "FINALE", 'white-cream', 2], ["A", "A", 'white', 1], ["BET", "BET", 'white', 1], ["BEAT", "ABET", 'yellow-cream', 1], ["DISAGREE", "AGREE", 'black', 2], ["A", "AGREEABLE", 'blue-cream', 1], ["UNABLE", "ABLE", 'black', 2]];
@@ -232,3 +238,4 @@ function clearCompletedPuzzles() {
     localStorage.setItem('completedPuzzles2', []);
     localStorage.setItem('completedPuzzles10001', []);
 }
+
