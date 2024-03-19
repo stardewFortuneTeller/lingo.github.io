@@ -243,7 +243,7 @@ var theRedundant = [
 	["COUP \\\\ PLED", "COUPLED", 'blue', 1],
 	["SINGLE \\\\ HALVED", "DOUBLED", 'black', 2],
 	["YELLOW", "LOW", 'red', 1],
-	["HELLO", "LOW", 'red', 2], 
+	["HELLO", "LOW", 'red', 0], 
 	["HI \\\\ HER", "HIGHER", 'blue', 1], 
 	["ORDINARY", "BINARY", 'purple', 1],
 	["BRAINY", "BINARY", 'yellow', 1],
@@ -270,7 +270,16 @@ var theNaive = [
 	["BEAT", "ABET", 'yellow-cream', 1],
 	["DISAGREE", "AGREE", 'black', 2],
 	["A", "AGREEABLE", 'blue-cream', 1],
-	["UNABLE", "ABLE", 'black', 2]
+	["UNABLE", "ABLE", 'black', 2],
+	["RACECAR", "RACE", 'red', 1],
+	["RACECAR", "RACECAR", 'black-cream', 1],
+	["RACECAR", "CAR", 'red', 1],
+	["I", "INCUR", 'blue', 1],
+	["CURABLE", "INCURABLE", 'black-cream', 1],
+	["A", "ABLE", 'blue', 1],
+	["THISTE", "THE", 'red', 1],
+	["NATIVE", "NAIVE", 'red', 1],
+	["YOU", "THE NAIVE", 'blue-cream', 1]
 ];
 
 // Setup BS
