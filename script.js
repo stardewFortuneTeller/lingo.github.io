@@ -44,7 +44,7 @@ var theTenacious = [
 	['SLAUGHTER', 'LAUGHTER', 'red', 1], 
 	['THE TENACIOUS', 'THE TENACIOUS', 'white', 1]
 ];
-var theArtisticPanda = 
+var theArtistic = 
 	[['EYE', 'IRIS', 'blue', 0], 
 	 ['EYE', 'IRIS', 'red', 2],
 	 ["LADYLIKE", "LAKE", 'red', 1], 
@@ -52,7 +52,22 @@ var theArtisticPanda =
 	 ["OURS", "HOURS", 'blue', 1], 
 	 ["DAYS", "HOURS", 'red', 2], 
 	 ["NIGHTTIME", "KNIGHT", 'red', 0], 
-	 ["NIGHT", "KNIGHT", 'blue', 1]
+	 ["NIGHT", "KNIGHT", 'blue', 1],
+	 ["FINE", "KNIFE", 'yellow', 0],
+	 ["BLADE", "KNIFE", 'blue', 2],
+	 ["RED", "BREAD", 'blue', 0],
+	 ["BEARD", "BREAD", 'yellow', 1]
+	 ["ICE", "SPICE", 'blue', 1],
+	 ["ROOT", "SPICE", 'yellow', 2],
+	 ["SPRIG", "GRIPS", 'yellow', 1],
+	 ["RELEASES", "GRIPS", 'black', 2],
+	 ["MUCH", "CHUM", 'black', 0],
+	 ["FISH", "CHUM", 'yellow', 2],
+	 ["MASK", "CHASM", 'yellow', 0],
+	 ["HILL", "CHASM", 'black', 2],
+	 ["TINE", "NIGHT", 'black', 0],
+	 ["THING", "NIGHT", 'yellow', 1],
+	 ["POSH", "SHOP", 'black', 0]
 	];
 var theBold = [
 	["SON \\\\ RISE", "SUNRISE", 'blue', 0], 
