@@ -354,8 +354,7 @@ function validate() {
     if (x == puzzles[randomElement][1]) {
         document.getElementById("clue").style.color = "rgb(0, 255, 0)";
         audio.play();
-        var puzzleID = puzzles.indexOf(puzzles[randomElement]);
-        markPuzzleCompleted(puzzleID);
+        markPuzzleCompleted(puzzles[randomElement]);
         sleep(900).then(() => {setupGame();});
     };
 }; 
@@ -371,7 +370,7 @@ function setupGame() {
     }
 
     document.getElementById("clue").style.color = "white";
-    if (completedPuzzles.includes(randomElement)) {document.getElementById("clue").style.color = "rgb(0, 255, 0)";}
+    if (completedPuzzles.includes(puzzles[randomElement])) {document.getElementById("clue").style.color = "rgb(0, 255, 0)";}
     document.getElementById("colorHint").innerHTML = "";
 
     document.getElementById("clue").innerHTML = puzzles[randomElement][0];
