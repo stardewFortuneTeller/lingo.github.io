@@ -56,7 +56,7 @@ var theArtistic =
 	 ["FINE", "KNIFE", 'yellow', 0],
 	 ["BLADE", "KNIFE", 'blue', 2],
 	 ["RED", "BREAD", 'blue', 0],
-	 ["BEARD", "BREAD", 'yellow', 1]
+	 ["BEARD", "BREAD", 'yellow', 1],
 	 ["ICE", "SPICE", 'blue', 1],
 	 ["ROOT", "SPICE", 'yellow', 2],
 	 ["SPRIG", "GRIPS", 'yellow', 1],
@@ -499,8 +499,8 @@ function markPuzzleCompleted(puzzleId) {
 }
 
 function clearCompletedPuzzles() {
-    localStorage.setItem('completedPuzzles1', []);
-    localStorage.setItem('completedPuzzles2', []);
-    localStorage.setItem('completedPuzzles10001', []);
+    localStorage.setItem('completedPuzzles1', JSON.stringify([]));
+    localStorage.setItem('completedPuzzles2', JSON.stringify([]));
+    localStorage.setItem('completedPuzzles10001', JSON.stringify([]));
 }
 
