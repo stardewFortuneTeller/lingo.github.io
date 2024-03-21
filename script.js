@@ -67,7 +67,19 @@ var theArtistic =
 	 ["HILL", "CHASM", 'black', 2],
 	 ["TINE", "NIGHT", 'black', 0],
 	 ["THING", "NIGHT", 'yellow', 1],
-	 ["POSH", "SHOP", 'black', 0]
+	 ["POSH", "SHOP", 'black', 0],
+	 ["MALL", "SHOP", 'red', 2],
+	 ["DECIEDE", "DECIDE", 'red', 1],
+	 ["WAVER", "DECIDE", 'black', 2],
+	 ["REPAID", "DIAPER", 'black', 1],
+	 ["BABY", "DIAPER", 'red', 2],
+	 ["LOBE", "BOWL", 'black', 0],
+	 ["BOWELS", "BOWL", 'red', 1],
+	 ["THEME", "THE", 'red', 1],
+	 ["PAINTS", "ART", 'yellow', 2],
+	 ["I", "IS", 'blue', 1],
+	 ["KIT", "TIC", 'black', 0],
+	 ["", "THE ARTISTIC", 'blue-cream', 1]
 	];
 var theBold = [
 	["SON \\\\ RISE", "SUNRISE", 'blue', 0], 
@@ -296,6 +308,10 @@ var theNaive = [
 	["NATIVE", "NAIVE", 'red', 1],
 	["YOU", "THE NAIVE", 'blue-cream', 1]
 ];
+
+// Thenonymous Garden Puzzles:
+
+
 
 // Setup BS
 
