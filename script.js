@@ -317,7 +317,7 @@ var theNaive = [
 
 const audio = new Audio('https://dl.sndup.net/kvsx/lingo_w.mp3');
 
-var l1puzzles = startingRoom.concat(heightTutorial, theTenacious, theArtisticPanda, theBold, theSteady, theColorful, theWise, crossroads);
+var l1puzzles = startingRoom.concat(heightTutorial, theTenacious, theArtistic, theBold, theSteady, theColorful, theWise, crossroads);
 var l2puzzles = returner.concat(startingTwoom, theFuzzy, theExemplary, theFresh, theUnscrambled);
 var l10001puzzles = returner.concat(theRedundant, theNaive);
 
