@@ -436,7 +436,11 @@ function setupGame() {
     var placeholderTxt = "";
     if (puzzles[randomElement][1] != 24) {
         for (i = 0; i < puzzles[randomElement][1].length; i++) {
-            placeholderTxt = placeholderTxt + "_ ";
+	    if (puzzles[randomElement][1].substring(i, i+1) == " ") {
+		placeholderTxt = placeholderTxt + "  ";       
+	    } else {
+		placeholderTxt = placeholderTxt + "_ ";    
+	    }
         }
     }   
     document.getElementById("answer-field").placeholder = placeholderTxt; 
