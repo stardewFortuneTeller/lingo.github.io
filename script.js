@@ -79,7 +79,7 @@ var theArtistic =
 	 ["PAINTS", "ART", 'yellow', 2],
 	 ["I", "IS", 'blue', 1],
 	 ["KIT", "TIC", 'black', 0],
-	 ["", "THE ARTISTIC", 'blue-cream', 1]
+	 ["...", "THE ARTISTIC", 'blue-cream', 1]
 	];
 var theBold = [
 	["SON \\\\ RISE", "SUNRISE", 'blue', 0], 
